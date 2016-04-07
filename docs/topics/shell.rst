@@ -103,7 +103,7 @@ shell works.
 
 First, we launch the shell::
 
-    scrapy shell 'http://scrapy.org' --nolog
+    scrapy shell http://scrapy.org --nolog
 
 Then, the shell fetches the URL (using the Scrapy downloader) and prints the
 list of available objects and useful shortcuts (you'll notice that these lines
