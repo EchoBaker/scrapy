@@ -125,8 +125,8 @@ all start with the ``[s]`` prefix)::
 
 After that, we can start playing with the objects::
 
-    >>> response.xpath("//h1/text()").extract()[0]
-    u'Meet Scrapy'
+    >>> response.xpath("//h2/text()").extract()[0]
+    [u'Healthy community', u'Want to know more?']
 
     >>> fetch("http://slashdot.org")
     [s] Available Scrapy objects:
